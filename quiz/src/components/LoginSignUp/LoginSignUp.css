@@ -1,0 +1,85 @@
+/* General container style */
+.login-signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #17a1d7;
+    text-align: center;
+  }
+  
+  /* Form box style */
+  .form-box {
+    background-color: #fff; /* White background for the form box */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+    width: 100%;
+    max-width: 500px;
+    
+  }
+  
+  /* Header style */
+  .form-box h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Form group style */
+  .form-group {
+    margin-bottom: 15px;
+    width: 90%;
+    text-align: left;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  /* Button style */
+  .form-box button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    width: 100%; /* Full width button */
+  }
+  
+  .form-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Forgot Password link style */
+  .form-box .forgot-password-link {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .form-box .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
